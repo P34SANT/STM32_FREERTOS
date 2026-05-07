@@ -1,0 +1,37 @@
+# ─────────────────────────────────────────────
+# Exclude STM32 Vendor Libraries (HAL/CMSIS)
+# ─────────────────────────────────────────────
+Drivers/** linguist-vendored
+Middlewares/** linguist-vendored
+Libraries/** linguist-vendored
+Third_Party/** linguist-vendored
+
+# Core/CMSIS system files
+**/system_stm32*.c linguist-vendored
+**/system_stm32*.h linguist-vendored
+**/cmsis/** linguist-vendored
+
+# ─────────────────────────────────────────────
+# Exclude Assembly Startup Files
+# ─────────────────────────────────────────────
+*.s linguist-vendored
+*.S linguist-vendored
+startup_*.s linguist-vendored
+startup_*.S linguist-vendored
+**/gcc/startup_*.s linguist-vendored
+**/arm/startup_*.s linguist-vendored
+
+# ─────────────────────────────────────────────
+# Exclude Linker Scripts
+# ─────────────────────────────────────────────
+*.ld linguist-vendored
+*.sct linguist-vendored
+*.icf linguist-vendored
+*.scf linguist-vendored
+STM32*.ld linguist-vendored
+
+# ─────────────────────────────────────────────
+# Force C recognition (optional but safe)
+# ─────────────────────────────────────────────
+*.c linguist-language=C
+*.h linguist-language=C

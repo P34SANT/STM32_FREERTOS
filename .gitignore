@@ -1,0 +1,37 @@
+# STM32CubeIDE build folders
+Debug/
+Release/
+
+# Object/dependency/build intermediates
+*.o
+*.obj
+*.d
+*.su
+*.cyclo
+*.lst
+
+# Firmware/build outputs
+*.elf
+*.hex
+*.bin
+*.srec
+*.map
+*.list
+*.out
+*.exe
+
+# Workspace-local metadata, not project metadata
+.metadata/
+
+# Logs and temporary/backup files
+*.log
+*~
+*.bak
+
+# Keep STM32CubeIDE project files tracked
+!.project
+!.cproject
+!.mxproject
+!.settings/
+
+git.txt

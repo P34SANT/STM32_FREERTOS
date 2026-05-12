@@ -29,7 +29,7 @@ SemaphoreHandle_t Mutex;
 QueueHandle_t QueueHandler;
 
 
-#define SIMPLE_TASK_STACK_SIZE 1024
+#define SIMPLE_TASK_STACK_SIZE 512
 
 uint8_t tmpstr = 0;
 //--------------------------------------------------------------------------------

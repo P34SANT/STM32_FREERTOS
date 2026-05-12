@@ -77,7 +77,7 @@ int main(void)
   sHandler = xSemaphoreCreateCounting(10 , 0);
   sHandler2 = xSemaphoreCreateCounting(10 , 0);
 
-  	  	  //mutex
+  //mutex
   Mutex = xSemaphoreCreateMutex();
 
   //queue
